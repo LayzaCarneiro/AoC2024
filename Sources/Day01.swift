@@ -26,6 +26,7 @@ struct Day01: AdventDay {
     for i in 0...firstColumnSorted.count - 1 {
       ans += abs(firstColumnSorted[i] - secondColumnSorted[i])
     }
+    
     return ans
   }
   
